@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div>
         <h1>{count}</h1>
-        <button onClick={()=>setCount((prev)=>prev+1)}>Increment</button>
-        <button onClick={()=>setCount((prev)=>prev-1)}>Decrement</button>
+        <button onClick={()=>setCount((prev)=>prev+1)}>increment</button>
+        <button onClick={()=>setCount((prev)=>prev-1)}>decrement</button>
     </div>
   )
 }
